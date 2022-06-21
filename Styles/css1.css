@@ -96,3 +96,22 @@ p{
 .heandingfonts{
     font-weight:700;
 }
+.title{
+    font-weight:700;
+    font-family:"open sans",sans-serif;
+    text-transform: uppercase;
+}
+.text-uppercase{
+    text tranform: uppercase;
+}
+.para{
+    text-align: justify;
+    color: #333;
+}
+.row{
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color:antiquewhite;
+}
