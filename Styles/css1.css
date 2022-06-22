@@ -41,6 +41,23 @@ a {
 a:hover{
     color: orange;
 }
+/*content css*/
+.bgcolor_paleyellow{
+    background-color: antiquewhite;
+}
+.padding_size15{
+    padding: 15px;
+}
+.content_main{
+    text-align: justify;
+}
+.heading_main{
+    background-color: #ff9600;
+    padding: 6px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #ffff;
+}
 /* Footer css*/
 .logo{
     padding-left: 8%;
