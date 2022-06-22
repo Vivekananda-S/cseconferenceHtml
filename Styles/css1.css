@@ -41,12 +41,21 @@ a {
 a:hover{
     color: orange;
 }
+<<<<<<< Updates
 /*content css*/
+=======
+
+/*  content css */
+>>>>>>> updates_chararn
 .bgcolor_paleyellow{
     background-color: antiquewhite;
 }
 .padding_size15{
     padding: 15px;
+<<<<<<< Updates
+=======
+
+>>>>>>> updates_chararn
 }
 .content_main{
     text-align: justify;
@@ -58,6 +67,10 @@ a:hover{
     font-size: 25px;
     color: #ffff;
 }
+<<<<<<< Updates
+=======
+
+>>>>>>> updates_chararn
 /* Footer css*/
 .logo{
     padding-left: 8%;
@@ -131,4 +144,13 @@ p{
     margin-bottom: 30px;
     margin-top: 30px;
     background-color:antiquewhite;
+}
+.headings_cont{
+    background-color: #ac0413;
+    border-left:7px solid #003c6d;
+    padding:7px;
+    font-weight:800;
+    font-size:25px;
+    color:#fff;
+
 }
