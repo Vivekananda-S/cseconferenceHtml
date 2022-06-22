@@ -41,6 +41,23 @@ a {
 a:hover{
     color: orange;
 }
+/*content css*/
+.bgcolor_paleyellow{
+    background-color: antiquewhite;
+}
+.padding_size15{
+    padding: 15px;
+}
+.content_main{
+    text-align: justify;
+}
+.heading_main{
+    background-color: #ff9600;
+    padding: 6px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #ffff;
+}
 /* Footer css*/
 .logo{
     padding-left: 8%;
@@ -108,10 +125,19 @@ p{
     text-align: justify;
     color: #333;
 }
-.row{
+.row1{
     margin-right: 40px;
     margin-left: 40px;
     margin-bottom: 30px;
     margin-top: 30px;
     background-color:antiquewhite;
+}
+.headings_cont{
+    background-color: #ac0413;
+    border-left:7px solid #003c6d;
+    padding:7px;
+    font-weight:800;
+    font-size:25px;
+    color:#fff;
+
 }
