@@ -23,6 +23,9 @@ a:hover{
 .offcanvas{
     width: fit-content;
 }
+.txt_w{
+    color: white;
+}
 /* table css*/
 .tg  {border-collapse:collapse;border-spacing:0;}
           .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -50,6 +53,9 @@ a:hover{
 /*content css*/
 .bgcolor_paleyellow{
     background-color: #faebd7;
+}
+.bg_transparent{
+    border: transparent;
 }
 .padding_size15{
     padding: 15px;
