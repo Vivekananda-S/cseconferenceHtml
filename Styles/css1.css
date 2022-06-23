@@ -1,26 +1,4 @@
-*{
-    /*has*/
-    ::-webkit-scrollbar {
-        width: 20px;
-      }
-      
-      /* Track */
-      ::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 5px grey; 
-        border-radius: 10px;
-      }
-       
-      /* Handle */
-      ::-webkit-scrollbar-thumb {
-        background: red; 
-        border-radius: 10px;
-      }
-      
-      /* Handle on hover */
-      ::-webkit-scrollbar-thumb:hover {
-        background: #b30000; 
-      }
-}
+
 .bg_green{
     background-color: #1d673e;
 }
@@ -41,9 +19,43 @@ a {
 a:hover{
     color: orange;
 }
+/* right canvas css*/
+.offcanvas{
+    width: fit-content;
+}
+.txt_w{
+    color: white;
+}
+/* table css*/
+.tg  {border-collapse:collapse;border-spacing:0;}
+          .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+            overflow:hidden;padding:10px 5px;word-break:normal;}
+          .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+            font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+          .tg .tg-nw00{background-color:#faedb7;border-color:inherit;text-align:left;vertical-align:middle}
+          .tg .tg-pii6{background-color:#ff9600;border-color:inherit;text-align:left;vertical-align:middle}
+
+
+.bttn-custom{
+    
+    color: #fff;
+    display: block;
+    position: fixed;
+    z-index: 99999999999999999;
+    right: -61px;
+    transform: rotate(90deg);
+    top: 45%;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
 /*content css*/
 .bgcolor_paleyellow{
-    background-color: antiquewhite;
+    background-color: #faebd7;
+}
+.bg_transparent{
+    border: transparent;
 }
 .padding_size15{
     padding: 15px;
@@ -81,7 +93,7 @@ a:hover{
 .footerlinks{
     display: block;
     color:#ccc;
-    paddin-top:5px;
+    padding-top:5px;
 }
 .fa{
     display: inline-block;
@@ -119,7 +131,7 @@ p{
     text-transform: uppercase;
 }
 .text-uppercase{
-    text tranform: uppercase;
+    text-transform: uppercase;
 }
 .para{
     text-align: justify;
