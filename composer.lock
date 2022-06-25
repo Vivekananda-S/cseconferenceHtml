@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b1dc03509df1c36fbf60fc3e46cab233",
+    "content-hash": "77d2daea8efd83f166177b1ff39a9bbe",
     "packages": [
         {
             "name": "heroku/heroku-buildpack-php",
@@ -58,7 +58,9 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^8.1.6"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
 }
