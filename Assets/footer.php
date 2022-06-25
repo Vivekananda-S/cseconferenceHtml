@@ -11,19 +11,19 @@
                   <a class="footerlinks" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                     <i class="fa fa-hand-o-right" aria-hidden="true"></i>
                   "Program Schedule"</a>
-                  <a href="/Pages/InvitedSpeakers.html" class="footerlinks">
+                  <a href="Pages/InvitedSpeakers.html" class="footerlinks">
                     <i class="fa fa-hand-o-right" aria-hidden="true"></i>
                   "Invited Speaker"</a>
-                  <a href="/" class="footerlinks">
+                  <a href="/conference" class="footerlinks">
                     <i class="fa fa-hand-o-right" aria-hidden="true"></i>
                   "Gallery"</a>
-                  <a href="/Pages/Committes.html" class="footerlinks">
+                  <a href="Pages/Committes.html" class="footerlinks">
                     <i class="fa fa-hand-o-right" aria-hidden="true"></i>
                   "Committees"</a>
-                  <a href="/Pages/Registration.html" class="footerlinks">
+                  <a href="Pages/Registration.html" class="footerlinks">
                     <i class="fa fa-hand-o-right" aria-hidden="true"></i>
                   "Registrations"</a>
-                  <a href="/Pages/Accomodation.html" class="footerlinks">
+                  <a href="Pages/Accomodation.html" class="footerlinks">
                     <i class="fa fa-hand-o-right" aria-hidden="true"></i>
                   "Accommodation"</a>
                 </div>
@@ -31,16 +31,16 @@
               <div class="col-md-6">
                 <div class="paddding25">
                   <h5 class="headingfonts">Quick links</h5>
-                  <a href="/" class="footerlinks">
+                  <a href="/conference" class="footerlinks">
                     <i class="fa fa-hand-o-right" aria-hidden="true"></i>
                   "Home"</a>
-                  <a href="/Pages/aboutus.html" class="footerlinks">
+                  <a href="Pages/aboutus.html" class="footerlinks">
                     <i class="fa fa-hand-o-right" aria-hidden="true"></i>
                   "About us"</a>
-                  <a href="/Pages/ConferenceTopics.html" class="footerlinks">
+                  <a href="Pages/ConferenceTopics.html" class="footerlinks">
                     <i class="fa fa-hand-o-right" aria-hidden="true"></i>
                   "Conference Topics"</a>
-                  <a href="/Pages/ContactUs.html" class="footerlinks">
+                  <a href="Pages/ContactUs.html" class="footerlinks">
                     <i class="fa fa-hand-o-right" aria-hidden="true"></i>
                   "Contact us"</a>
                 </div>
