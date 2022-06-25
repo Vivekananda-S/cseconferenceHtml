@@ -11,7 +11,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
     <!-- Local Styles -->
-    <link rel="stylesheet" href="/Styles/css1.css">
+    <link rel="stylesheet" href="Styles/css1.css">
 
     <title>CSE-Conference</title>
 
@@ -19,70 +19,8 @@
 </head>
 <body>
     
-    <div class="container-fluid">
-        <div class="container">
-            <div class="row">
-            <img src="/Images/Header.jpeg" alt="header" class="img-fluid">
-            </div>
-        </div>
-    </div>
+<?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/cseconference/Assets/"; include($IPATH."headnavbar.php"); ?>
 
-    <!--NavBarBootstrap-->
-    <div class="container-fluid">
-      <div class="row">
-      <nav class="navbar navbar-expand-lg navbar-dark bg_green">
-          <div class="container-fluid">
-              <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav ">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/Pages/aboutus.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/Pages/ConferenceTopics.html" >Conference Topics</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/Pages/InvitedSpeakers.html">Invited Speakers</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Committees
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="/Pages/CheifPatron.html">Chef Patron</a></li>
-                    <li><a class="dropdown-item" href="/Pages/Patron.html">Patron</a></li>
-                    <li><a class="dropdown-item" href="#">Convener</a></li>
-                    <li><a class="dropdown-item" href="#">Co Convener</a></li>
-                    <li><a class="dropdown-item" href="#">Organising Secrectary</a></li>
-                    <li><a class="dropdown-item" href="/Pages/AdvisaryCommittee.html">Advisory Committee</a></li>
-                    <li><a class="dropdown-item" href="/Pages/TechnicalCommittee.html">Technical Committee</a></li>
-                    <li><a class="dropdown-item" href="#">Organising Committee</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/Pages/Registration.html">Registration</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/Pages/Accomodation.html">Accomodation</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/Pages/Downloads.html">Downloads</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/Pages/ContactUs.html">Contact Us</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          </div>
-        </nav>
-  </div>
   </div>
   
     <!-- Toogle Right Canvas  -->
@@ -298,107 +236,8 @@ AICC 2022 provides a major international forum where the creation and exchange o
           </div>
         </div>
     </div> -->
-      <!-- Footter-->
-    <div class="container-fluid bgcolor_2">
-      <div class="container">
-        <br>
-        <div class="row color_white">
-          <div class="col-md-7">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="paddding25">
-                  <h5 class="headingfonts">Important links</h5>
-                  <a class="footerlinks" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                  "Program Schedule"</a>
-                  <a href="/Pages/InvitedSpeakers.html" class="footerlinks">
-                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                  "Invited Speaker"</a>
-                  <a href="/" class="footerlinks">
-                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                  "Gallery"</a>
-                  <a href="/Pages/Committes.html" class="footerlinks">
-                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                  "Committees"</a>
-                  <a href="/Pages/Registration.html" class="footerlinks">
-                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                  "Registrations"</a>
-                  <a href="/Pages/Accomodation.html" class="footerlinks">
-                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                  "Accommodation"</a>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="paddding25">
-                  <h5 class="headingfonts">Quick links</h5>
-                  <a href="/" class="footerlinks">
-                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                  "Home"</a>
-                  <a href="/Pages/aboutus.html" class="footerlinks">
-                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                  "About us"</a>
-                  <a href="/Pages/ConferenceTopics.html" class="footerlinks">
-                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                  "Conference Topics"</a>
-                  <a href="/Pages/ContactUs.html" class="footerlinks">
-                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                  "Contact us"</a>
-                </div>
-              </div>
 
-            </div>
-          </div>
-          <div class="col-md-5">
-            <div class="row">
-              <div class="paddding25">
-                  <h5 class="headingfonts">Contact Us</h5>
-                  <p class="color_1">
-                    "MLR Institute of Technology, Dundigal Police Station Road, Qutbullapur(M), Hyderabad-500043, Telangana, INDIA"
-                    <br>
-                    <strong>Email: convener@mlrinstitutions.ac.in</strong>
-                    <br>
-                    <strong>Phone: +91 9966100434 / +91 9160404640</strong>
-                    <br>
-                  </p>
-                  <!-- <h5 class="headingfonts">Social Media</h5>
-                  <div class="row pull-right">
-                    <div class="social_icon_bottom">
-                      <a href="#">
-                        <i class="fa fa-facebook" aria-hidden="true">
-                            ::before
-                        </i>
-                      </a>
-                    </div>
-                    <div class="social_icon_bottom">
-                      <a href="#">
-                        <i class="fa fa-twitter" aria-hidden="true">
-                            ::before
-                        </i>
-                      </a>
-                    </div>
-                    <div class="social_icon_bottom">
-                      <a href="#">
-                        <i class="fa fa-instagram" aria-hidden="true">
-                            ::before
-                        </i>
-                      </a>
-                    </div>
-                  </div> -->
-              </div>
-            </div>
-
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="paddding25 color_white">
-                 © 2nd International Conference on AICC - 2022. All Rights Reserved 
-              </div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-
-    </div>
+    <!-- Footer  -->
+    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/cseconference/Assets/"; include($IPATH."footer.php"); ?>
 </body>
 </html>
