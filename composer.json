@@ -1,0 +1,6 @@
+{
+    
+    "require": {
+        "heroku/heroku-buildpack-php": "^220.0"
+    }
+}
