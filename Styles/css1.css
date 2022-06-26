@@ -3,12 +3,12 @@
     background-color: #1d673e;
 }
 .carousel-indicators{
-    height: 100px;
+    height: auto;
 }
 .carousel-item{
     height: 100vh;
     min-height: 300px;
-    max-height: 300px;
+    max-height: 400px;
 }
 
 a {
