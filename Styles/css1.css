@@ -38,7 +38,7 @@
 }
 .carousel-item{
     height: 100vh;
-    min-height: 300px;
+    min-height: 100px;
     max-height: 400px;
 }
 
@@ -192,3 +192,13 @@ p{
     color:#fff;
 
 }
+@media screen and (max-width: 992px) {
+    .carousel-indicators{
+        height: auto;
+    }
+    .carousel-item{
+        height: 100vh;
+        min-height: 100px;
+        max-height: 150px;
+    }
+  }
